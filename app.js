@@ -21,7 +21,7 @@ for (let i = 0; i < personajes.length; i++) {
       <p> name: ${personajes[i].name} </p>
       <p> gender: ${personajes[i].gender} </p>
       <p>origen: ${personajes[i].origin.name} </p>
-      <img src="https://rickandmortyapi.com/api/character/avatar/${i + 1}.jpeg" >
+      <img src="https://rickandmortyapi.com/api/character/avatar/${i + 1}.jpeg" class= "imagenes"   >
       <div>
       `
     }
