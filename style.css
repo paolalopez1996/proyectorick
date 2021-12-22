@@ -1,4 +1,9 @@
+body{
+    background-color: aqua;
+}
+
 .tarjetas{
     margin-left:  20px;
     font-style: italic;
+    
 }
