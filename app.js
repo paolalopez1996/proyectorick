@@ -18,7 +18,6 @@ for (let i = 0; i < personajes.length; i++) {
     console.log(personajes[i].origin.name);
       info += `
       <div class="tarjetas" >
-   
       <p> name: ${personajes[i].name} </p>
       <p> gender: ${personajes[i].gender} </p>
       <p>origen: ${personajes[i].origin.name} </p>
