@@ -18,12 +18,14 @@ for (let i = 0; i < personajes.length; i++) {
     console.log(personajes[i].origin.name);
       info += `
       <div class="tarjetas" >
-      <p> name: ${personajes[i].name} </p>
-      <p> gender: ${personajes[i].gender} </p>
-      <p>origen: ${personajes[i].origin.name} </p>
+      
+      <p class = "element"  > name: ${personajes[i].name}, origen: ${personajes[i].origin.name} </p>
+      <p class = "element"  > gender: ${personajes[i].gender} </p>
+      
       <img src="https://rickandmortyapi.com/api/character/avatar/${i + 1}.jpeg" class= "imagenes"   >
       <div>
       `
+      
     }
     return section.innerHTML = info;
 

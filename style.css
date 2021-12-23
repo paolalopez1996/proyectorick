@@ -1,12 +1,45 @@
 body{
     background-color: aqua;
+    
 }
 
 .tarjetas{
+    margin-top: 30px;
+    font-family: 'Shizuru', cursive;
+    font-size: 30px;
     margin-left:  20px;
-    font-style: italic;
+    font-weight: 900;
+    border: 2px solid black;
+    width: 600px;
+    height: 450px;
+    display: flex;
+    display: inline-block;
+    float:left;
+    text-align: center;
+  
+    
+   
     
 }
 .imagenes{
     border: 2px solid purple;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    margin-left: 5px;
+
+   
+    
+   
+    
+   
+    
+}
+.imagenes:hover {
+    background-color: blueviolet;
+}
+.element{
+    width: 80%;
+    height: 50px;
+    
 }
